@@ -1,0 +1,27 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <list>
+          <option value="streamlit" />
+          <option value="chromadb" />
+          <option value="langchain" />
+          <option value="PyPDF2" />
+          <option value="tqdm" />
+          <option value="transformers" />
+          <option value="sentence-transformers" />
+          <option value="torch" />
+          <option value="faiss-cpu" />
+          <option value="PyMuPDF" />
+          <option value="sqlalchemy" />
+          <option value="psycopg2-binary" />
+          <option value="pandas" />
+          <option value="python-dotenv" />
+          <option value="fuzzywuzzy" />
+          <option value="python-levenshtein" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
