@@ -10,6 +10,7 @@
 # Sidebar:
 # - Enter comma-separated MCP SSE URLs (e.g., http://127.0.0.1:3101/sse,http://127.0.0.1:3102/sse)
 # - Connect to discover and route automatically
+# This change is from the dev branch
 
 import os
 import re
@@ -34,7 +35,7 @@ from client_utils import MCPRouterClient  # local module for routing
 DEFAULT_BACKEND_URLS = os.getenv("BACKEND_URLS", "http://127.0.0.1:3101/sse,http://127.0.0.1:3102/sse")
 DEFAULT_ROUTING_POLICY = os.getenv("ROUTING_POLICY", "round_robin")  # first | round_robin | latency
 
-OPENROUTER_API_KEY = os.getenv("OPENROUTER_API_KEY", "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")
+OPENROUTER_API_KEY = os.getenv("OPENROUTER_API_KEY", "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")
 OPENROUTER_CHAT_COMPLETIONS_URL = "https://openrouter.ai/api/v1/chat/completions"
 DEFAULT_LLM_MODEL = os.getenv("LLM_MODEL", "mistralai/mistral-7b-instruct:free")
 
