@@ -92,7 +92,7 @@ pip install -r requirements.txt
 
 ### 4️⃣ Configure environment variables
 
-Create `.env` file (don't commit it):
+Create `.env` file:
 
 ```env
 GOOGLE_API_KEY=your_google_api_key
