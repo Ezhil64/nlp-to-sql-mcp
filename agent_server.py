@@ -13,7 +13,7 @@ from langchain_core.utils.function_calling import convert_to_openai_tool  # mode
 load_dotenv()
 
 GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY")
-GEMINI_MODEL_NAME = os.getenv("GEMINI_MODEL_NAME", "gemini-pro")
+GEMINI_MODEL_NAME = os.getenv("GEMINI_MODEL_NAME", "gemini-2.5-flash")
 if not GOOGLE_API_KEY:
     raise ValueError("FATAL ERROR: GOOGLE_API_KEY not found in .env file.")
 

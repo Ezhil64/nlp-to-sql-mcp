@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+streamlit
+requests
+pandas
+python-dotenv
+fastmcp
+langchain-google-genai
+langchain-core
+pydantic
+langsmith
